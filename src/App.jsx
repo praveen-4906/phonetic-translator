@@ -44,7 +44,7 @@ Sentence: "${inputText}"`;
 
     try {
       const response = await axios({
-        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCipvOCIwE-6jT6W7hwIUdRA6N-aJHPNH8',
+        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${import.meta.env.VITE_KEY}`,
         method: 'POST',
         data: {
           contents: [{ parts: [{ text: prompt }] }],

@@ -66,3 +66,6 @@ A web application for two-way phonetic translation using the Gemini AI API. Tran
   - Input: "Naa romba nalla irukken"
   - Language: Tamil
   - Output: "I am doing very well"
+
+## Screenshot
+![Screenshot](src/screenshots/screenshot-01.png)
